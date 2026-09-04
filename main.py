@@ -8,9 +8,9 @@ Requirements:
     pip install ultralytics opencv-python --break-system-packages
 
 Usage:
-    python uav_camera_detector.py --model best.pt --source 0
-    python uav_camera_detector.py --model best.pt --source video.mp4
-    python uav_camera_detector.py --model best.pt --source rtsp://...
+    python main.py --model best.pt --source 0
+    python main.py --model best.pt --source video.mp4
+    python main.py --model best.pt --source rtsp://...
 
 Notes:
     - "best.pt" should be a YOLOv8 model trained/fine-tuned on drone data.
