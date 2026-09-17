@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 1
+names: ['plane']
+
+roboflow:
+  workspace: uav-aeroplane-dataset
+  project: uav-uv9ci
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/uav-aeroplane-dataset/uav-uv9ci/dataset/2
